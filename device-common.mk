@@ -67,6 +67,9 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
+# Enable blur
+TARGET_ENABLE_BLUR := true
+
 # Control groups and task profiles
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
